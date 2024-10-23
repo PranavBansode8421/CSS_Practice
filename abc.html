@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Bites</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f3;
+        }
+
+        .header {
+            background-color: #f1a15f;
+            color: #333;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        .logo p {
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+        .search-bar input {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .menu {
+            background-color: #f3b35d;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #666;
+        }
+
+        .hotel-cards {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .hotel-card {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            border-radius: 10px;
+        }
+
+        .hotel-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .hotel-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .hotel-card p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .hotel-card button {
+            background-color: #ff6633;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hotel-card button:hover {
+            background-color: #ff3300;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>Yummy Bites</h1>
+            <p>Whatever your heart wants!</p>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for dishes, restaurants, etc.">
+        </div>
+    </div>
+    
+    <nav class="menu">
+        <a href="#">Takeaway</a>
+        <a href="#">Dine-in</a>
+        <a href="#">Snacks</a>
+        <a href="#">Meals</a>
+        <a href="#">Drinks</a>
+    </nav>
+
+    <div class="content">
+        <h2>A wide range of hotels to suit your mood and occasion!</h2>
+        <div class="hotel-cards">
+            <div class="hotel-card">
+                <img src="hotel1.jpg" alt="Hotel 1">
+                <h3>Hotel 1</h3>
+                <p>Location: ABC<br>Specialty: ABC<br>Budget: ABC<br>Rating: ABC</p>
+                <button>Know More</button>
+            </div>
+            <div class="hotel-card">
+                <img src="hotel1.jpg" alt="Hotel 1">
+                <h3>Hotel 1</h3>
+                <p>Location: ABC<br>Specialty: ABC<br>Budget: ABC<br>Rating: ABC</p>
+                <button>Know More</button>
+            </div>
+            <div class="hotel-card">
+                <img src="hotel1.jpg" alt="Hotel 1">
+                <h3>Hotel 1</h3>
+                <p>Location: ABC<br>Specialty: ABC<br>Budget: ABC<br>Rating: ABC</p>
+                <button>Know More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

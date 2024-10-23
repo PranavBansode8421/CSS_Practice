@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body{
+            background: url(./img2/pexels-pixabay-235985.jpg);
+            background-repeat: repeat;
+            background-size: contain;
+        }
+        #input_searchbar 
+        {
+            width: 300px;
+        }
+        .pic
+        {
+            width: 120px;
+            height: 100px;
+        }
+        .img {
+            width: 150px;
+            height: 180px;
+        }
+        .img1{
+            width: 250px;
+            height: 250px;
+            padding: 10px;
+        }
+        .hotel{
+            border: 2px solid black;
+            height: 500px;
+            width: 280px;
+            text-align: center;
+        }
+        #h1 {
+            font-family: heading_Font;
+            width: 260px;
+            margin: 20px 20px 20px 10px;
+            color: white;
+
+        }
+        .main_heading{
+            margin: 20px 20px 20px 0px;
+        }
+        #top_right
+        {
+            margin: auto;
+            width: 510px;
+            display: flex;
+        }
+        #top_mid {
+            width: 320px;
+            /* margin: 40px 20px 40px 20px; */
+            margin: auto;
+        }
+        #div_head {
+            border: 2px solid black;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-content: center;
+        }
+        #top_left {
+            margin: auto;
+            display: flex;
+        }
+        .pic{
+            border: 2px solid black;
+        }
+        .nav{
+            width: 100px;
+        }
+        
+        #div_navigation{
+            
+           
+            border: 2px solid black;
+            height: 50px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-content: center;
+            
+        }
+        #body_heading{
+            text-align: center;
+        }
+        .logo_text{
+            margin: auto;
+        }
+        #div_body_content_img{
+            width: 310px;
+            margin:40px 40px 40px 40px;
+        }
+        #div_body_content{
+            height: 600px;
+            background-color: rgba(243, 203, 155, 0.426);
+            display: flex;
+            flex-flow: row wrap;
+        }
+        #div_body_content_hotels{
+            margin: auto;
+            display: flex;
+            
+            justify-content: space-between;
+        }
+        @font-face {
+            font-family: heading_Font;
+            src: url(./fonts/Great_Vibes/GreatVibes-Regular.ttf);
+        }
+        @font-face {
+            font-family:font1;
+            src: url(./fonts/Parisienne-Regular.ttf);
+        }
+        h2{
+            font-family:font1;
+        }
+        a{
+            color: black;
+            font-weight: bold;
+        }
+        
+        button{
+            margin: 10px;
+            background-color: blue;
+            color: white;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="div_head">    
+        <div id="top_left">
+            <img class="logo_text" src="./images/logo1.webp" alt="logo" width="120px" height="120px">
+            <div class="logo_text" id="h1">
+                <h1 class="main_heading"><b>Luxurious Pallate</b></h1>
+                <h3 class="main_heading">Savor the Essence of Luxury.</h3>
+            </div>
+        </div>
+        <div id="top_mid">
+            <input id="input_searchbar" type="text" placeholder="Search for Cuisines, Restaurents, Food, etc." >
+        </div>
+        <div id="top_right">
+            <img class="pic" src="./restaurent_img/Café e design_ o novo Starbucks Amsterdã.jpeg" alt=".">
+            <img class="pic" src="./restaurent_img/elegant.jpeg" alt=".">
+            <img class="pic" src="./restaurent_img/bar.jpeg" alt=".">
+            <img class="pic" src="./restaurent_img/Photo by Getty Images on Unsplash.jpeg" alt=".">
+        </div>
+    </div>
+    <div id="div_navigation">
+        <div class="nav"><a href="#">Dine-in</a></div>
+        <div class="nav"> <a href="#">Bookings</a></div>
+        <div class="nav"><a href="#">Cuisines</a></div>
+        <div class="nav"><a href="#">Takeaway</a></div>
+        <div class="nav"><a href="#">Drinks</a></div>
+            
+           
+            
+            
+            
+    </div>
+    <div id="div_body">
+        <div id="div_body_heading">
+            <h2 id="body_heading">A wide range of Restaurants to suite your Ocasions and Mood
+        </div>
+        <div id="div_body_content">
+            <div id="div_body_content_img">
+                <img class="img" src="./img/AD’s 2022 Hotel Awards_ 26 Exceptional Properties to Book Now.jpeg" alt=".">
+                <img class="img" src="./img/Discover Kingston Lafferty’s New Restaurant Design.jpeg" alt=".">
+                <img class="img" src="./img/The Ultimate Guide to Vacationing in Ubud.jpeg" alt=".">
+                <img class="img" src="./img/4_5-meter-tall glass-hewn buddha sculpture decorates restaurant interior in new york.jpeg" alt=".">
+            </div>
+            <div id="div_body_content_hotels">
+                <div class ="hotel" id="hotel1">
+                    <img class="img1" src="./img1/JW Marriott Hotel Chandigarh.jpeg" alt=".">
+                    <h2>hotel1</h2>
+                    <div class="table_containt">
+                        <div class="table1">Location : Pune</div>
+                        <div class="table1">Spetiality : Thai,Italian</div>
+                        <div class="table1">Budget : &#8377;10000</div>
+                        <div class="table1">Rating : &#9734; &#9734; &#9734; &#9734; </div>
+                        <div class="button"><button>Know More</button></div>
+                    </div>
+                    
+                </div>
+                <div class ="hotel" id="hotel2">
+                    <img class="img1" src="./img1/La Giostra on Instagram_ “Tag your partner in….jpeg" alt=".">
+                    <h2>hotel2</h2>
+                    <div class="table_containt">
+                        <div class="table1">Location : Mumbai</div>
+                        <div class="table1">Spetiality : Continental,Turkish</div>
+                        <div class="table1">Budget : &#8377;15000</div>
+                        <div class="table1">Rating : &#9734; &#9734; &#9734; &#9734; &#9734; </div>
+                        <div class="button"><button>Know More</button></div>
+                    </div>
+                </div>
+                <div class ="hotel" id="hotel3">
+                    <img class="img1" src="./img1/Fine Dining Restaurants in Midtown Manhattan - Aman New York.jpeg" alt=".">
+                    <h2>hotel3</h2>
+                    <div class="table_containt">
+                        <div class="table1">Location : Mumbai</div>
+                        <div class="table1">Spetiality : Indian,Italian</div>
+                        <div class="table1">Budget : &#8377;7000</div>
+                        <div class="table1">Rating : &#9734; &#9734; &#9734; &#9734; </div>
+                        <div class="button"><button>Know More</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
